@@ -36,6 +36,19 @@ for ch in s1:
 print("LETTERS:", letter)
 print("DIGITS:", digit)
 
+-Without isalpha and isdigit--
+s1 = "Hello world! 123"
+
+letter = 0
+digit = 0
+for ch in s1:
+    if ('a' <= ch <= 'z') or ('A' <= ch <= 'Z'):
+        letter += 1
+    elif '0' <= ch <= '9':
+        digit += 1
+print("LETTERS:", letter)
+print("DIGITS:", digit)
+
 '''
 Write a program which can compute the factorial of a given numbers.The
 results should be printed in a comma-separated sequence on a single
