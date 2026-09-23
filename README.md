@@ -20,3 +20,4 @@
 
 ### Python Practice:
  
+[View Python Practical coding - Txt file](python.txt)
