@@ -4,7 +4,7 @@
 -----------------
 
 
-## TASK 1:
+## TASK - 1  [19/09/2026] : 
 
 ### Justdial Manual Testing :
    ### Excel Sheet:
@@ -12,7 +12,7 @@
   [View the Justdial Manual Testing Excel Sheet](https://docs.google.com/spreadsheets/d/1htBB7oVYZmfLEL5b99uJVtkxQPagkUzBHYgzDpcAmMU/edit?usp=sharing)
 
 --------------------
-## TASK 2:
+## TASK - 2  [22/09/2026]:
 
 ### Automation Testing Exercise:
 
@@ -22,7 +22,7 @@
 
 ---------------
 
-## TASK 3:
+## TASK - 3 [23/09/2026] :
 
 ### Python Practice:
  
