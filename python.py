@@ -36,9 +36,11 @@ for ch in s1:
 print("LETTERS:", letter)
 print("DIGITS:", digit)
 
--Without isalpha and isdigit--
-s1 = "Hello world! 123"
+''' 
+Without isalpha and isdigit 
+'''
 
+s1 = "Hello world! 123"
 letter = 0
 digit = 0
 for ch in s1:
