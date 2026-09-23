@@ -21,4 +21,4 @@
 
 ### Python Practice:
  
-[View Python Practical coding - Txt file](python.py)
+[View Python Practical coding - 3 questions](python.py)
