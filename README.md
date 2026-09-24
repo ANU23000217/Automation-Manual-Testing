@@ -32,7 +32,7 @@
 
 ## TASK - 4  [24/09/2026]
 
-### TEST MATRIC AND ANALYTICS :
+### TEST METRIC AND ANALYTICS :
 
-[JIOMART APPLIACTION - TEST MATRIC AND ANALYTICS](https://docs.google.com/spreadsheets/d/1htBB7oVYZmfLEL5b99uJVtkxQPagkUzBHYgzDpcAmMU/edit?gid=604832423#gid=604832423)
+[JIOMART APPLIACTION - TEST METRIC AND ANALYTICS](https://docs.google.com/spreadsheets/d/1htBB7oVYZmfLEL5b99uJVtkxQPagkUzBHYgzDpcAmMU/edit?gid=604832423#gid=604832423)
       
