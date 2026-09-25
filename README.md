@@ -36,3 +36,10 @@
 
 [JIOMART APPLIACTION - TEST METRIC AND ANALYTICS](https://docs.google.com/spreadsheets/d/1htBB7oVYZmfLEL5b99uJVtkxQPagkUzBHYgzDpcAmMU/edit?gid=604832423#gid=604832423)
       
+-------------------
+
+## TASK - 5  [25/09/2026]
+
+### Python Coding Exercise
+
+[View Python Coding Exercise - 10 Questions](Python_EntireCode.py)
