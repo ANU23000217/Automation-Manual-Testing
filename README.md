@@ -49,3 +49,11 @@
 
   ### Numpy Assignment: 
    [View Numpy assignment](Python_Numpy_Assessment.py)
+
+  ### Python Functions Assigment:
+   [View Python Functions Assignment](Python_assignment.py)
+
+   ### Python Assignment:
+   [View Python Assignments](python.py)
+   
+     
