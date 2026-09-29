@@ -1,65 +1,117 @@
 '''
-Write a Python program which accepts a sequence of comma separated 4 digit
-binary numbers as its input and then check whether they are divisible by 5 or not.
-The numbers that are divisible by 5 are to be printed in a comma separated
-sequence.
-Example:
-0100,0011,1010,1001
-Then the output should be:
-1010
-'''
-binary = input()
-b= binary.split(",")   # if you print b - o/p is ['0100', '0011', '1010', '1001]
-for n in b:
-    decimal = int(n, 2)   # converting decimal to binary with base 2
-    if decimal%5==0:
-        print(n)
-
-'''
-Write a Python program that accepts a sentence and calculate the number of
-letters and digits.
-Suppose the following input is supplied to the program:
-hello world! 123
-Then, the output should be:
-LETTERS 10
-DIGITS 3
+1.	Print all prime numbers between input range (Ex input 20 50, prints all prime numbers between 20 and 50).
 '''
 
-s1 = "Hello world! 123"
-letter=0
-digit=0
-for ch in s1:
-    if ch.isalpha():
-        letter +=1
-    elif ch.isdigit():
-        digit +=1
-print("LETTERS:", letter)
-print("DIGITS:", digit)
-
-''' 
-Without isalpha and isdigit 
-'''
-
-s1 = "Hello world! 123"
-letter = 0
-digit = 0
-for ch in s1:
-    if ('a' <= ch <= 'z') or ('A' <= ch <= 'Z'):
-        letter += 1
-    elif '0' <= ch <= '9':
-        digit += 1
-print("LETTERS:", letter)
-print("DIGITS:", digit)
+st = int(input())
+e = int(input())
+for i in range(st, e+1):
+    isprime= True
+    if i < 2:
+        isprime= False
+    for j in range(2, int(i**0.5)+1):
+        if i%j==0:
+            isprime=False
+            break
+    else:
+        print("Prime nos: ", i) 
 
 '''
-Write a program which can compute the factorial of a given numbers.The
-results should be printed in a comma-separated sequence on a single
-line.Suppose the following input is supplied to the program:8
-Then, the output should be:40320
+2.	Factorial using recursion
+'''
+def fact(n):
+    if n==0 or n==1:
+        return 1
+    return n * fact(n-1)
+n = int(input())
+print(fact(n))
+
+'''
+3.	Square of numbers using lambda
+'''
+x=int(input())
+sq = lambda x : x**2 
+print(sq(x))
+
+'''
+4.	Find the second largest element in a list
+'''
+def sec_lar(arr):
+    largest = float('-inf')
+    second = float('-inf')
+    for n in arr:
+        if n >largest:
+            second = largest
+            largest = n
+        elif n >second or n!=largest:
+            second = n
+    return second
+arr = list(map(int, input().split()))
+print(sec_lar(arr))
+
+'''
+5.	Count frequency of characters in a string
+'''
+def frequency(str):
+    freq = {}
+    for ch in str:
+        if ch in freq:
+            freq[ch]+=1
+        else:
+            freq[ch] =1
+    return freq
+str = input()
+print(frequency(str))
+
+
+'''
+6.	Calculate area of a circle using math library.
+'''
+import math
+radius = int(input())
+area = math.pi*radius**2     #area = 3.14*radius**2
+print("Area of circle", area)
+
+
+'''
+7.	Reverse a string without using built‑in reverse
 '''
 
-f = int(input())
-fact =1
-for i in range(1, f+1):
-    fact*=i
-print(fact)
+str = input()
+reverse =""
+for ch in str:
+    reverse = ch+reverse
+print(reverse)
+
+'''
+8.	Remove duplicates from a list
+'''
+li = list(map(int, input().split()))
+seen = set()
+uni = set()
+for c in li:
+    if c in seen:
+        uni.add(c)
+    else:
+        seen.add(c)    
+print(seen)
+
+
+'''
+9.	Merge two dictionaries
+'''
+
+dict1 = eval(input())
+dict2 = eval(input())
+print(dict1 | dict2) 
+
+'''
+10.	Fibonacci series using recursion
+'''
+def fib(n):
+    if n==0:
+        return 0
+    elif n==1 or n==2:
+        return 1
+    return fib(n-1)+fib(n-2)
+n = int(input())
+print(fib(n))
