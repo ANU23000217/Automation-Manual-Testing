@@ -44,6 +44,7 @@
 
 [View Python Coding Exercise - 10 Questions](Python_EntireCode.py)
 
+-------------------------------
 
 ## TASK - 6  [ 29/09/2026]
 
