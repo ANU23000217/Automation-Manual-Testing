@@ -48,7 +48,7 @@
 ## TASK - 6  [ 29/09/2026]
 
   ### Numpy Assignment: 
-   [View Numpy assignment](Python_Numpy_Assessment.py)
+   [View Numpy assignment](Python_Numpy_Assessment.ipynb)
 
   ### Python Functions Assigment:
    [View Python Functions Assignment](Python_assignment.py)
