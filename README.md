@@ -56,5 +56,17 @@
 
    ### Python Assignment:
    [View Python Assignments](python.py)
+
+
+-------------------
+
+
+   ## TASK - 7  [05/10/2026] 
+
+   ### Selenium Webdriver:
+
+   [View Selenium Webdriver code](Selenium_webdriver_exercise.pdf)
    
+   
+    
      
