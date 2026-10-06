@@ -66,6 +66,16 @@
    ### Selenium Webdriver:
 
    [View Selenium Webdriver code](Selenium_webdriver_exercise.pdf)
+
+   --------
+
+   
+   ## TASK - 8  [06/10/2026] 
+
+   ### Selenium Webdriver Activity:
+
+   [View Selenium Webdriver code](Selenium_Activity.pdf)
+   
    
    
     
