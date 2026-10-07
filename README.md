@@ -80,9 +80,14 @@
 
  ## TASK - 9  [07/10/2026] 
 
-   ###  Amazon Login, Product Search, Add-to-Cart and Payment page Automation :
+   ### 1- Amazon Login, Product Search, Add-to-Cart and Payment page Automation :
 
    [View Amazon Automation Python Code](amazon.py)
+
+
+   ### 2 - Selenium Automation Alerts and Waits:
+
+   [View Alerts and Waits Selenium Autmation Code](testing_alerts.py)
    
    
     
