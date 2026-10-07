@@ -75,7 +75,14 @@
    ### Selenium Webdriver Activity:
 
    [View Selenium Webdriver code](Selenium_Activity.pdf)
-   
+
+-----------------------------------------------------------
+
+ ## TASK - 9  [07/10/2026] 
+
+   ###  Amazon Login, Product Search, Add-to-Cart and Payment page Automation :
+
+   [View Amazon Automation Python Code](amazon.py)
    
    
     
