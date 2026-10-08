@@ -89,6 +89,14 @@
 
    [View Alerts and Waits Selenium Autmation Code](testing_alerts.py)
    
+   ---------------
+
    
-    
+   ## TASK - 10  [08/10/2026] 
+
+   ### Online student registration form By Selenium Automation :
+
+   [View Online Student Registration Automation Python Code](xpath_form.py)
+   
+
      
